@@ -128,7 +128,7 @@ const deleteNoteByIdHandler = (request, h) => {
 
     const response = h.response({
         status: 'fail',
-        message: 'Fail deleted!',
+        message: 'fail to found',
     });
 
     response.code(404);
